@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EU PROJETEI - Projetos de Interiores</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navegação -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="hero">
+    <h1>Bem-vindo ao EU PROJETEI</h1>
+    <p>Transformando seus espaços com design moderno e funcional.</p>
+    <a href="#portfolio" class="btn">Veja nossos projetos</a>
+  </section>
+
+  <!-- Portfólio -->
+  <section id="portfolio">
+    <h2>Portfólio</h2>
+    <div class="portfolio-items">
+      <!-- Adicione suas imagens de projetos aqui -->
+      <div class="item"><img src="projeto1.jpg" alt="Projeto 1"></div>
+      <div class="item"><img src="projeto2.jpg" alt="Projeto 2"></div>
+      <div class="item"><img src="projeto3.jpg" alt="Projeto 3"></div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre">
+    <h2>Sobre</h2>
+    <p>Somos uma equipe apaixonada por design de interiores, focada em criar ambientes personalizados e funcionais.</p>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato">
+    <h2>Contato</h2>
+    <form action="enviar-email.php" method="POST">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Depoimentos -->
+  <section id="depoimentos">
+    <h2>Depoimentos</h2>
+    <blockquote>
+      <p>"Adorei meu novo ambiente! O design transformou minha casa."</p>
+      <footer>- Cliente Satisfeito</footer>
+    </blockquote>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 EU PROJETEI | Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
